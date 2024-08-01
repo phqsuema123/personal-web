@@ -7,10 +7,14 @@ aside {
 }
 
 body {
-    background-color: lightblue;
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 
 h1 {
     color: white;
     text-align: center;
+}
+nav{
+    text-align:center;
 }
