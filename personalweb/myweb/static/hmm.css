@@ -61,3 +61,14 @@ nav ul li a:hover::after{
 nav ul li:hover{
     background-color: #111;
 }
+
+#mojor{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+#learnmorea{
+    text-align: right;
+}
