@@ -1,59 +1,66 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    {% load static %}
+    
     <title>Presonalwebsite</title>
-    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="{% static 'hmm.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    
 
 </head>
+
 <nav>
-    HOME
-    ABOUT ME
-    ACADEMIC PROJECT
-    ACTIVITY
-    CONTACT
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#academic-project">Academic Project</a></li>
+            <li><a href="#activity">Activity</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
 </nav>
 <body>
     <h1>ASSALAMMUALAIKUM,HELLO!</h1>
     <p>DATA SCIENCE AND ANALYTICS STUDENT</p>
     <p>FADLAAN SUEMA</p>    
 </body>
-<section>
-    <h2>About me</h2>
-    <p>Hello,I am Fadlan,an international data science junior student studying at Fatoni university.<br>
-        On this website,I will introduce a simple study method for those intersted is this field.
-    </p>
+<section id="about-me">
+        <h2>About me</h2>
+        <p>Hello,I am Fadlan,an international data science junior student studying at Fatoni university.<br>
+            On this website,I will introduce a simple study method for those intersted is this field.
+        </p>
 </section>
-<section>
-    <h2>
-        Academic Project
-    </h2>
-    <h3>web development with Django:</h3>
-    <p>-Discount calculation web
-        <br>-tourist recommendation website</p>
-    <h3>CRISP-DM(Cross-indusry standard process for data mining)</h3>
-    <p>-Thai happiness lige segmentation
-        <br>-spam email classication
-        <br>-segmenting loan applicants to assess risk</p>
-        
+<section id="academic-project">
+        <h2>
+            Academic Project
+        </h2>
+        <h3>web development with Django:</h3>
+        <p>-Discount calculation web
+            <br>-tourist recommendation website</p>
+        <h3>CRISP-DM(Cross-indusry standard process for data mining)</h3>
+        <p>-Thai happiness lige segmentation
+            <br>-spam email classication
+            <br>-segmenting loan applicants to assess risk</p>
+            
 </section>
-<aside>
-    <a href="https://github.com/phqsuema123?tab=repositories" target="_blank">you can see more detail on github\phqsuema123.</a>
-</aside>
-<section>
-    <h2>
-        Activity
-    </h2>
-    <p>-beingn an intern at IBN Affan cooperative.<br>
-        -I am an excange student with UMK university.<br>
-        -participated in the toyota campaign competition and ranked joint 5th.<br>
-        -chairman of the frashman camp.
-    </p>
+    <aside>
+        <a href="https://github.com/phqsuema123?tab=repositories" target="_blank">you can see more detail on github\phqsuema123.</a>
+    </aside>
+<section id="activity">
+        <h2>
+            Activity
+        </h2>
+        <p>-beingn an intern at IBN Affan cooperative.<br>
+            -I am an excange student with UMK university.<br>
+            -participated in the toyota campaign competition and ranked joint 5th.<br>
+            -chairman of the frashman camp.
+        </p>
 </section>
-<footer>
-    <h2>My CONTACT</h2>
-    <a href="https://web.facebook.com/profile.php?id=100089751685266"target="_blank">Facebook</a>
-    <p>pqh.suema@gmail.com</p>
-    <a href="https://github.com/phqsuema123?tab=repositories">Github</a>
+<footer id="contact">
+        <h2>My CONTACT</h2>
+        <a href="https://web.facebook.com/profile.php?id=100089751685266"target="_blank">Facebook</a>
+        <p>pqh.suema@gmail.com</p>
+        <a href="https://github.com/phqsuema123?tab=repositories">Github</a>
 </footer>
+
 </html>
