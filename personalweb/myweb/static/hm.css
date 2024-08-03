@@ -17,13 +17,15 @@ h1 {
     text-align: center;
 }
 
-nav{
+nav {
     background-color: #111;
 }
-nav ul li{
+
+nav ul li {
     display: inline;
 }
-nav ul{
+
+nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -31,6 +33,7 @@ nav ul{
     justify-content: space-around;
     border-bottom: 2px solid white;
 }
+
 nav ul li a {
     color: white;
     text-decoration: none;
@@ -39,36 +42,74 @@ nav ul li a {
     position: relative;
 }
 
-nav ul li a::after{
+nav ul li a::after {
     content: '';
     position: absolute;
     width: 0;
     height: 2px;
     display: block;
-    margin: top 5px;
+    margin-top: 5px;
     right: 0;
-    background:white;
+    background: white;
     transition: width 0.5s ease;
     -webkit-transition: width 0.4s ease;
 }
 
-nav ul li a:hover::after{
+nav ul li a:hover::after {
     width: 100%;
-    left:0;
-    background:white;
+    left: 0;
+    background: white;
 }
 
-nav ul li:hover{
+nav ul li:hover {
     background-color: #111;
 }
 
-#mojor{
-    text-align: center;
+#mojor {
+    text-align: left;
+    font-size: xx-large;
 }
-h2{
+
+#name {
+    text-align: right;
+    font-size: xx-large;
+}
+
+h2 {
     text-align: center;
 }
 
-#learnmorea{
+#learnmore {
     text-align: right;
+}
+
+#divider {
+    width: 2px;
+    height: 100px;
+    background-color: white;
+    margin: 0;
+}
+
+main {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#intro {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text {
+    margin-right: 20px;
+}
+
+#text h {
+    font-size: 36px;
 }

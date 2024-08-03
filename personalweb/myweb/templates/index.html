@@ -2,15 +2,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
-    <title>Presonalwebsite</title>
-    <link rel="stylesheet" href="{% static 'hmm.css' %}">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="{% static 'hm.css' %}">
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
-    
-
 </head>
-
-<nav>
+<body>
+    <nav>
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#about-me">About me</a></li>
@@ -18,46 +15,51 @@
             <li><a href="#activity">Activity</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-</nav>
-<body>
-    <h1>ASSALAMMUALAIKUM,HELLO!</h1>
-    <p id="mojor">DATA SCIENCE AND ANALYTICS STUDENT</p>
-    <p>FADLAAN SUEMA</p>    
-</body>
-<section id="about-me">
+    </nav>
+    <main>
+        <div id="intro">
+            <h1>ASSALAMMUALAIKUM, HELLO!</h1>
+            <div id="content">
+                <div>
+                    <h2>DATA SCIENCE AND ANALYTICS STUDENT</h2>
+                </div>
+                <div id="divider"></div>
+                <p>Fadlan Suema</p>
+            </div>
+        </div>
+    </main>
+
+    <section id="about-me">
         <h2>About me</h2>
-        <p>Hello,I am Fadlan,an international data science junior student studying at Fatoni university.<br>
-            On this website,I will introduce a simple study method for those intersted is this field.
+        <p>Hello, I am Fadlan, an international data science junior student studying at Fatoni University.<br>
+            On this website, I will introduce a simple study method for those interested in this field.
         </p>
-</section>
-<section id="academic-project">
-        <h2>
-            Academic Project
-        </h2>
-        <h3>web development with Django:</h3>
-        <p>-Discount calculation web
-            <br>-tourist recommendation website</p>
-        <h3>CRISP-DM(Cross-indusry standard process for data mining)</h3>
-        <p>-Thai happiness lige segmentation
-            <br>-spam email classication
-            <br>-segmenting loan applicants to assess risk</p>
+    </section>
+    <section id="academic-project">
+        <h2>Academic Project</h2>
+        <h3>Web development with Django:</h3>
+        <p>- Discount calculation web
+            <br>- Tourist recommendation website</p>
+        <h3>CRISP-DM (Cross-industry standard process for data mining)</h3>
+        <p>- Thai happiness life segmentation
+            <br>- Spam email classification
+            <br>- Segmenting loan applicants to assess risk</p>
+        <a id="learnmore" href="https://github.com/phqsuema123?tab=repositories" target="_blank">You can see more detail on GitHub\phqsuema123.</a>   
+    </section>
 
-        <a id="learnmore" href="https://github.com/phqsuema123?tab=repositories" target="_blank">you can see more detail on github\phqsuema123.</a>   
-</section>
-
-<section id="activity">
+    <section id="activity">
         <h2>Activity</h2>
-        <p>-beingn an intern at IBN Affan cooperative.<br>
-            -I am an excange student with UMK university.<br>
-            -participated in the toyota campaign competition and ranked joint 5th.<br>
-            -chairman of the frashman camp.
+        <p>- Being an intern at IBN Affan cooperative.<br>
+            - I am an exchange student with UMK University.<br>
+            - Participated in the Toyota campaign competition and ranked joint 5th.<br>
+            - Chairman of the freshman camp.
         </p>
-</section>
-<footer id="contact">
+    </section>
+    <footer id="contact">
         <h2>My CONTACT</h2>
-        <a href="https://web.facebook.com/profile.php?id=100089751685266"target="_blank">Facebook</a>
+        <a href="https://web.facebook.com/profile.php?id=100089751685266" target="_blank">Facebook</a>
         <p>pqh.suema@gmail.com</p>
-        <a href="https://github.com/phqsuema123?tab=repositories">Github</a>
-</footer>
-
+        <a href="https://github.com/phqsuema123?tab=repositories">GitHub</a>
+    </footer>
+</body>
 </html>
