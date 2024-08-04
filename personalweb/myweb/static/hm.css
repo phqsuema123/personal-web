@@ -85,31 +85,38 @@ h2 {
 
 #divider {
     width: 2px;
-    height: 100px;
+    height: 150px;
     background-color: white;
-    margin: 0;
+    margin: 0 20px;
 }
 
 main {
     text-align: center;
     padding: 50px 20px;
 }
-
-#intro {
+.intro h1{
     font-size: 24px;
+    margin-bottom:20px ;
+}
+#intro {
+    font-size: 15px;
     margin-bottom: 20px;
 }
 
-#content {
+.content {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#text {
+.text {
     margin-right: 20px;
 }
 
-#text h {
+.text h {
     font-size: 36px;
 }
+.text h2{
+    font-size: 36px;
+}
+
