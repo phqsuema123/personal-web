@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <title>Personal Website</title>
-    <link rel="stylesheet" href="{% static 'hm.css' %}">
+    <link rel="stylesheet" href="{% static 'hmm.css' %}?{% now 'U' %}">
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -30,11 +30,16 @@
     </main>
 
     <section id="about-me">
-        <h2>About me</h2>
-        <p>Hello, I am Fadlan, an international data science junior student studying at Fatoni University.<br>
-            On this website, I will introduce a simple study method for those interested in this field.
-        </p>
+        <h2 id="about">About me</h2>
+        <div id="content-wrapper">
+            <div id="divider"></div>
+            <p id="content">
+                Hello, I am Fadlan, an international data science junior student studying at Fatoni University.<br>
+                On this website, I will introduce a simple study method for those interested in this field.
+            </p>
+        </div>
     </section>
+    
     <section id="academic-project">
         <h2>Academic Project</h2>
         <h3>Web development with Django:</h3>

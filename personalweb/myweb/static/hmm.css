@@ -7,18 +7,18 @@ aside {
 }
 
 body {
-    background-color: rgb(0, 0, 0);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: 'Questrial', sans-serif;
 }
 
 h1 {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
 nav {
-    background-color: #111;
+    background-color: #ffffff;
 }
 
 nav ul li {
@@ -31,11 +31,11 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: space-around;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 14px 20px;
     display: block;
@@ -50,19 +50,19 @@ nav ul li a::after {
     display: block;
     margin-top: 5px;
     right: 0;
-    background: white;
-    transition: width 0.5s ease;
-    -webkit-transition: width 0.4s ease;
+    background: rgb(0, 0, 0);
+    transition: width 0.10s ease;
+    -webkit-transition: width 0.10s ease;
 }
 
 nav ul li a:hover::after {
     width: 100%;
     left: 0;
-    background: white;
+    background: rgb(0, 0, 0);
 }
 
 nav ul li:hover {
-    background-color: #111;
+    background-color:rgb(230, 230, 230);
 }
 
 #mojor {
@@ -84,16 +84,16 @@ h2 {
 }
 
 #divider {
-    width: 2px;
+    width: 3px;
     height: 150px;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     margin: 0 20px;
 }
 
 
 main {
     text-align: center;
-    padding: 100px 20px;
+    padding: 200px 20px;
 }
 .intro h1{
     font-size: 24px;
@@ -121,3 +121,23 @@ main {
     font-size: 36px;
 }
 
+#about {
+    font-size: 80px;
+    text-align: left;
+}
+
+#content{
+    text-align: center;
+}
+
+#content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: x-large;
+}
+
+section{
+    padding: 100px 20px;
+}
