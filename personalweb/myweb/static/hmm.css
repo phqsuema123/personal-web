@@ -213,6 +213,13 @@ section{
 #activity{
     padding: 100px 20px;
 }
-#activity{
-    padding: 150px 20px;
+
+
+#contact{
+    padding: 100px 20px;
+}
+
+#pact{
+    font-size:20px;
+    text-align: center;
 }
