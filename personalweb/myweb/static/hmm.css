@@ -1,10 +1,3 @@
-aside {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15%;
-    float: right;
-    font-style: italic;
-}
 
 body {
     background-color: rgb(255, 255, 255);
@@ -51,7 +44,7 @@ nav ul li a::after {
     margin-top: 5px;
     right: 0;
     background: rgb(0, 0, 0);
-    transition: width 0.10s ease;
+    transition: width 0.5s ease;
     -webkit-transition: width 0.10s ease;
 }
 
@@ -65,15 +58,9 @@ nav ul li:hover {
     background-color:rgb(230, 230, 230);
 }
 
-#mojor {
-    text-align: left;
-    font-size: xx-large;
-}
 
-#name {
-    text-align: right;
-    font-size: xx-large;
-}
+
+
 
 h2 {
     text-align: center;
@@ -95,10 +82,7 @@ main {
     text-align: center;
     padding: 200px 20px;
 }
-.intro h1{
-    font-size: 24px;
-    margin-bottom:20px ;
-}
+
 #intro {
     font-size: 15px;
     margin-bottom: 20px;
@@ -114,9 +98,7 @@ main {
     margin-right: 20px;
 }
 
-.text h {
-    font-size: 36px;
-}
+
 .text h2{
     font-size: 36px;
 }
@@ -163,11 +145,7 @@ section{
     font-size:20px;
 }
 
-#container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 #divider {
     width: 3px;
