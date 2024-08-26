@@ -201,3 +201,30 @@ section{
     font-size:20px;
     text-align: center;
 }
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.flex-container > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    width: 200px;
+    height: 75px; /* Adjusted height for centering */
+    margin: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.flex-container a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.flex-container a:hover {
+    text-decoration: underline;
+}
