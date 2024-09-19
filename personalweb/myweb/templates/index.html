@@ -5,6 +5,8 @@
     <title>Personal Website</title>
     <link rel="stylesheet" href="{% static 'hmm.css' %}?{% now 'U' %}">
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
     <nav>
@@ -61,17 +63,59 @@
         <p id="pact">- Being an intern at IBN Affan cooperative.<br>
             - I am an exchange student with UMK University.<br>
             - Participated in the Toyota campaign competition and ranked joint 5th.<br>
-            - Chairman of the freshman camp.
+            - Chairman of the freshman camp.<br>
         </p>
+        
+    </section>
+    <!-- Header -->
+  </div>
+  
+  <!-- Photo Grid -->
+  <div class="row"> 
+    <div class="column">
+      <img src="/static/image/activity/IMG_0160.jpg" style="width:100%">
+      <img src="/static/image/activity/IMG_0161.JPG" style="width:100%">
+    </div>
+    
+    <div class="column">
+      <img src="/static/image/activity/IMG_0176.jpg" style="width:100%">
+      <img src="/static/image/activity/IMG_1559.jpg" style="width:100%">
+    </div> 
+     
+    <div class="column">
+      <img src="/static/image/activity/IMG_5870.JPG" style="width:100%">
+      <img src="/static/image/activity/IMG_8762_Original.JPG" style="width:100%">
+    </div>
+    
+    <div class="column">
+      <img src="/static/image/activity/IMG_8765_Original.JPG" style="width:100%">
+      <img src="/static/image/activity/IMG_7314.jpg" style="width:100%">
+    </div>
+  </div>
+    <section>
+        <h2>Share your advice for those interested in data science.</h2>
     </section>
     <footer id="contact">
         <h2 id="mc">My CONTACT</h2>
         <div class="flex-container">
-            <div><a href="https://web.facebook.com/profile.php?id=100089751685266" target="_blank">Facebook</a></div>
-            <div><p>pqh.suema@gmail.com</p></div>
-            <div><a href="https://github.com/phqsuema123?tab=repositories" target="_blank">GitHub</a></div>  
+            <div>
+                <a href="https://web.facebook.com/profile.php?id=100089751685266" target="_blank">
+                    <i class="fab fa-facebook-f"></i> Facebook
+                </a>
+            </div>
+            <div>
+                <i class="fas fa-envelope"></i>
+                <p>pqh.suema@gmail.com</p>
+            </div>
+            <div>
+                <a href="https://github.com/phqsuema123?tab=repositories" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
         </div>
     </footer>
+    
+    
     
 </body>
 </html>
