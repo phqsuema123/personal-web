@@ -257,68 +257,31 @@ section{
     flex-wrap: wrap;
     padding: 0 4px;
   }
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Responsive Image Gallery</title>
-      <style>
-          .row {
-              display: flex;
-              flex-wrap: wrap;
-              margin-left: -4px;
-              margin-right: -4px;
-          }
   
-          .column {
-              flex: 25%;
-              max-width: 25%;
-              padding: 0 4px;
-          }
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
   
-          .column img {
-              margin-top: 8px;
-              vertical-align: middle;
-              width: 100%; /* ทำให้ภาพเต็มความกว้างของคอลัมน์ */
-          }
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
   
-          /* ปรับเป็นสองคอลัมน์สำหรับหน้าจอขนาดเล็กกว่า 800px */
-          @media (max-width: 800px) {
-              .column {
-                  flex: 50%;
-                  max-width: 50%;
-              }
-          }
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
   
-          /* ปรับเป็นหนึ่งคอลัมน์สำหรับหน้าจอขนาดเล็กกว่า 600px */
-          @media (max-width: 600px) {
-              .column {
-                  flex: 100%;
-                  max-width: 100%;
-              }
-          }
-      </style>
-  </head>
-  <body>
-  
-      <div class="row"> 
-          <div class="column">
-              {% if content.image1 %}
-                  <img src="{{ content.image1.url }}" alt="Image 1">
-              {% endif %}
-              {% if content.image2 %}
-                  <img src="{{ content.image2.url }}" alt="Image 2">
-              {% endif %}
-          </div>
-  
-          <div class="column">
-              {% if content.image3 %}
-                  <img src="{{ content.image3.url }}" alt="Image 3">
-              {% endif %}
-          </div>
-      </div>
-  
-  </body>
-  </html>
-  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
