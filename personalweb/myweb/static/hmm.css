@@ -291,3 +291,28 @@ section{
       max-width: 100%;
     }
   }
+
+/* Keyframe animation for headers */
+@keyframes slideDownFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Initially hide the headers */
+.animated-header {
+    opacity: 0;
+    transform: translateY(50px); /* Start slightly below */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* When in view, trigger the animation */
+.animated-header.show {
+    opacity: 1;
+    transform: translateY(0);
+}
