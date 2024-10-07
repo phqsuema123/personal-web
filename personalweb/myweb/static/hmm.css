@@ -347,3 +347,39 @@ section{
     opacity: 1;
     transform: translateY(0);
 }
+
+#learnmore {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#learnmore:hover {
+    background-color: #ffffff;
+}
+
+.column img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.column img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Modal Container */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
