@@ -1,7 +1,3 @@
-Here's a sample `README.md` for your website project:
-
----
-
 # Personal Website - Fadlan Suema
 
 Welcome to the repository of my personal website! This website serves as an online portfolio and platform where I introduce myself, showcase academic projects, share activities, and provide guidelines for those interested in data science.
