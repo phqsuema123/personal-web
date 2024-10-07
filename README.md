@@ -99,5 +99,3 @@ Feel free to reach out via my contact information or check out my GitHub for mor
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-This `README.md` provides a structured guide to understanding the repository and the website functionality. Feel free to adjust any sections as needed for your project.
