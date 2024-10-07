@@ -15,3 +15,20 @@ class HomepageContent(models.Model):
 
     def __str__(self):
         return self.title
+
+class Activity(models.Model):
+    title = models.CharField(max_length=200, help_text="Enter the activity title")
+    description = models.TextField(help_text="Enter the details of the activity")
+    date_posted = models.DateTimeField(auto_now_add=True)
+    
+    def __str__(self):
+        return self.title
+
+
+class AcademicProject(models.Model):
+    title = models.CharField(max_length=200, help_text="Enter the project title")
+    description = models.TextField(help_text="Enter the project description")
+    date_posted = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.title

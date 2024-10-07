@@ -45,25 +45,31 @@
     <section id="academic-project">
         <h2 id="acd" class="animated-header">Academic Project</h2>
         <div id="divcon">
-            <h3 id="h3acd" class="animated-header">Web development with Django:</h3>
-            <p id="acdcon"class="animated-header">- Discount calculation web
-                <br>- Tourist recommendation website</p>
-            <h3 id="h3acd" class="animated-header">CRISP-DM (Cross-industry standard process for data mining)</h3>
-            <p id="acdcon"class="animated-header">- Thai happiness life segmentation
-                <br>- Spam email classification
-                <br>- Segmenting loan applicants to assess risk</p>                                
-            <a id="learnmore" href="https://github.com/phqsuema123?tab=repositories" target="_blank"class="animated-header">You can see more detail on GitHub\phqsuema123.</a>   
+            <!-- Loop through the academic projects dynamically -->
+            {% for project in academic_projects %}
+                <h3 id="h3acd" class="animated-header">{{ project.title }}:</h3>
+                <p id="acdcon" class="animated-header">{{ project.description }}</p><br>
+            {% empty %}
+                No academic projects available at the moment.<br>
+            {% endfor %}
+            <a id="learnmore" href="https://github.com/phqsuema123?tab=repositories" target="_blank"class="animated-header">You can see more detail on GitHub\phqsuema123.</a>
         </div>
     </section>
+    
 
     <section id="activity">
         <h2 id="act" class="animated-header">Activity</h2>
-        <p id="pact" class="animated-header">- Being an intern at IBN Affan cooperative.<br>
-            - I am an exchange student with UMK University.<br>
-            - Participated in the Toyota campaign competition and ranked joint 5th.<br>
-            - Chairman of the freshman camp.<br>
+        <p id="pact" class="animated-header">
+            <!-- Loop through the activities dynamically -->
+            {% for activity in activities %}
+                - {{ activity.title }}<br>
+                {{ activity.description }}<br><br>
+            {% empty %}
+                No activities available at the moment.<br>
+            {% endfor %}
         </p>
     </section>
+    
     <div class="row"> 
         <div class="column">
           <img src="/static/image/activity/IMG_0160.jpg" style="width:100%">
@@ -99,7 +105,6 @@
         </script>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </section>
-
     <footer id="contact">
         <h2 id="mc" class="animated-header">My CONTACT</h2>
         <div class="flex-container">
@@ -110,7 +115,7 @@
             </div>
             <div>
                 <i class="fas fa-envelope"></i>
-                <p>pqh.suema@gmail.com</p>
+                <span>pqh.suema@gmail.com</span>
             </div>
             <div>
                 <a href="https://github.com/phqsuema123?tab=repositories" target="_blank">
@@ -119,6 +124,8 @@
             </div>
         </div>
     </footer>
+    
+    
     <script src="{% static 'jss.js' %}"></script>
 </body>
 </html>

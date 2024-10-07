@@ -17,3 +17,4 @@ document.addEventListener('DOMContentLoaded', function () {
     const headers = document.querySelectorAll('.animated-header');
     headers.forEach(header => observer.observe(header));
 });
+
