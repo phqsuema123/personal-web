@@ -64,6 +64,4 @@ For more information or queries, reach out via:
 - **GitHub**: [Fadlan's GitHub](https://github.com/phqsuema123)
 - **Facebook**: [Fadlan's Facebook Profile](https://web.facebook.com/profile.php?id=100089751685266)
 
----
-
-This README covers the main aspects of your project and provides instructions for users and developers. Adjust it as needed!
+---!
