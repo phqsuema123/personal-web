@@ -383,3 +383,67 @@ section{
     background-color: rgba(0, 0, 0, 0.8);
     cursor: pointer;
 }
+
+/* Section Styling */
+#secskill {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Heading Styling */
+#secskill h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Skill List Styling */
+#secskill ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#secskill ul li {
+    background-color: #e0e0e0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Skill Card Styling */
+.skill-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card h3 {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.skill-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Add some hover effect */
+.skill-card:hover {
+    background-color: #f0f8ff;
+    border-color: #4e4e4e;
+    box-shadow: 0 4px 8px rgba(119, 120, 122, 0.2);
+}
+
+.skill-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    float: left;
+    border-radius: 50%;
+}
