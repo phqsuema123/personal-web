@@ -12,7 +12,14 @@ h1 {
 
 nav {
     background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff; /* เปลี่ยนสีพื้นหลังตามที่ต้องการ */
+    box-shadow: 0 4px 2px -2px gray; /* เพิ่มเงาเพื่อความสวยงาม */
+    z-index: 1000; /* เพื่อให้แถบเมนูอยู่ด้านหน้าของเนื้อหา */
 }
+
 
 nav ul li {
     display: inline;
