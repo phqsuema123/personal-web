@@ -1,101 +1,69 @@
-# Personal Website - Fadlan Suema
 
-Welcome to the repository of my personal website! This website serves as an online portfolio and platform where I introduce myself, showcase academic projects, share activities, and provide guidelines for those interested in data science.
-
-## Table of Contents
-- [Personal Website - Fadlan Suema](#personal-website---fadlan-suema)
-  - [Table of Contents](#table-of-contents)
-  - [Overview](#overview)
-  - [Features](#features)
-  - [Technologies Used](#technologies-used)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Clone the repository](#clone-the-repository)
-    - [Install Dependencies](#install-dependencies)
-    - [Run the Django server](#run-the-django-server)
-  - [File Structure](#file-structure)
-  - [Academic Projects \& Activities](#academic-projects--activities)
-  - [Contact](#contact)
-  - [License](#license)
-
-## Overview
-This personal website was developed to present my journey as a Data Science and Analytics student at Fatoni University. It includes an overview of my academic projects, personal activities, and advice for those looking to get started in data science.
-
-## Features
-- **Home Page:** A welcome page that introduces visitors to the site.
-- **About Me Section:** A brief introduction about myself and my academic journey.
-- **Academic Projects:** A dynamically generated list of academic projects with descriptions.
-- **Activity Section:** Display of activities with images, displayed in a responsive grid layout.
-- **Modal Gallery:** Clickable images that open in a modal for full view.
-- **Guidelines Section:** A platform to share advice about data science with a Disqus comment system.
-- **Contact Section:** Links to my social media profiles and contact information.
-
-## Technologies Used
-- **Frontend:**
-  - HTML5 & CSS3
-  - JavaScript (for interactivity and animations)
-  - FontAwesome for icons
-  - Google Fonts for typography
-  - Disqus for the comment section
-- **Backend:**
-  - Django for templating and static file handling
-- **Version Control:** GitHub
-
-## Getting Started
-To run this project locally, follow these steps:
-
-### Prerequisites
-- Install Python and Django.
-
-### Clone the repository
-```bash
-git clone https://github.com/phqsuema123/personal-website.git
-```
-
-### Install Dependencies
-Navigate to the project directory and install required packages:
-```bash
-cd personal-website
-pip install -r requirements.txt
-```
-
-### Run the Django server
-```bash
-python manage.py runserver
-```
-
-Now you can visit the website locally at `http://127.0.0.1:8000/`.
-
-## File Structure
-```
-├── static/
-│   ├── css/
-│   │   └── hmm.css
-│   ├── js/
-│   │   └── jss.js
-│   └── images/
-│       └── activity/
-├── templates/
-│   └── index.html
-├── README.md
-├── manage.py
-├── views.py
-└── models.py
-```
-
-## Academic Projects & Activities
-The website dynamically pulls in academic projects and activities from Django models. These projects are listed under the **Academic Projects** section, while images from recent activities are displayed in the **Activity** section.
-
-If you want to add new projects or activities, simply add them in Django's admin interface or directly in the models.
-
-## Contact
-Feel free to reach out via my contact information or check out my GitHub for more details on my projects.
-
-- **Facebook:** [Fadlan Suema](https://web.facebook.com/profile.php?id=100089751685266)
-- **GitHub:** [phqsuema123](https://github.com/phqsuema123)
-- **Email:** pqh.suema@gmail.com
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
+
+# Fadlan's Personal Website
+
+This project is a personal portfolio website for **Fadlan Suema**, showcasing skills, projects, and experiences in data science and web development. The website includes an introduction, a section on skills, academic projects, activities, and contact information.
+
+## Project Structure
+
+- **index.html**: The main HTML file for the website, containing the structure of the webpage and content such as About Me, Skills, Academic Projects, and Contact sections.
+- **hmm.css**: The CSS file for styling the website, providing design for layout, animations, and responsiveness.
+- **jss.js**: A JavaScript file that adds animations to the website, making elements appear smoothly when they come into view.
+
+## Features
+
+- **Responsive Design**: The website is designed to be responsive and adjusts its layout for mobile, tablet, and desktop devices.
+- **Interactive Animations**: Smooth animations using JavaScript, such as elements sliding into view as the user scrolls down.
+- **Portfolio Showcase**: Sections to highlight academic projects, skills, and activities, with a direct link to GitHub repositories for more details.
+- **Contact Information**: Includes links to social media profiles and an email address for easy contact.
+
+## Sections Overview
+
+- **Home**: A welcoming message and brief introduction.
+- **About Me**: Background information about Fadlan, including a link to the resume.
+- **Skills**: Details about web development, data analysis, machine learning, and data engineering skills.
+- **Academic Projects**: A list of past and current academic projects with links to further details.
+- **Activities**: Images and descriptions of various activities.
+- **Contact**: Links to GitHub, Facebook, and an email address for reaching out.
+
+## Usage
+
+1. Clone this repository:
+   ```
+   git clone https://github.com/your-username/your-repository.git
+   ```
+2. Ensure you have a local web server running if you're using any Django features.
+3. Open `index.html` in your browser to view the website.
+
+## Technologies Used
+
+- **HTML5**: For the website structure.
+- **CSS3**: For styling and animations.
+- **JavaScript**: For adding animations and interactive elements.
+- **Google Fonts**: For custom typography.
+- **Font Awesome**: For icons.
+
+## Deployment
+
+To deploy this website on a server, ensure that all static files (HTML, CSS, JavaScript) are correctly referenced. If using Django, follow Django's deployment steps, such as setting up a `static` directory.
+
+## Contributing
+
+Feel free to fork this project, make improvements, and submit pull requests. Any contributions that enhance the design, functionality, or content are welcome.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For more information or queries, reach out via:
+- **Email**: pqh.suema@gmail.com
+- **GitHub**: [Fadlan's GitHub](https://github.com/phqsuema123)
+- **Facebook**: [Fadlan's Facebook Profile](https://web.facebook.com/profile.php?id=100089751685266)
+
+---
+
+This README covers the main aspects of your project and provides instructions for users and developers. Adjust it as needed!
